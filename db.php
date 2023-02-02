@@ -14,7 +14,7 @@ if($link){
 }
 
 
-header('Location: http://100.27.10.116/index.html?success=true');
+header('Location: http://mail.bim-cv.live/index.html?success=true');
 $db_selected = mysqli_select_db($link, 'mails');
 
 
