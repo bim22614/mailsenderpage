@@ -30,7 +30,7 @@ mysqli_query($link, $sql);
 
 $old_path = getcwd();
 chdir('/home/ubuntu');
-$output = shell_exec(`curl -X POST http://54.210.90.102:8080/job/mail/build --user bim:117799b22b54caf2127a188736a0a50d6c --data-urlencode json='{'parameter': [{"name":"mail", "value":"qw724112@gmail.com"}]}'`);
+$output = shell_exec(`curl -X POST http://54.210.90.102:8080/job/mail/build --user bim:117799b22b54caf2127a188736a0a50d6c --data-urlencode json='{'parameter': [{"name":"mail", "value":"$var_mail"}]}'`);
 
 chdir($old_path);
 echo "<pre>$output</pre>";
