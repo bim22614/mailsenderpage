@@ -14,7 +14,7 @@ if($link){
 }
 
 
-header('Location: http://34.207.221.63/index.html?success=true');
+header('Location: http://100.27.10.116/index.html?success=true');
 $db_selected = mysqli_select_db($link, 'mails');
 
 
@@ -30,7 +30,7 @@ mysqli_query($link, $sql);
 
 //$old_path = getcwd();
 //chdir('/home/bim');
-//$output = shell_exec(`curl -X POST http://192.168.1.103:8080/job/test3/build --user bim:116c5035514b90032549c76e7a9bf09204 --data-urlencode json='{'parameter': [{"name":"mail", "value":"$var_mail"}]}'`);
+//$output = shell_exec(`curl -X POST http://54.210.90.102:8080/job/test3/build --user bim:116c5035514b90032549c76e7a9bf09204 --data-urlencode json='{'parameter': [{"name":"mail", "value":"$var_mail"}]}'`);
 
 //chdir($old_path);
 //echo "<pre>$output</pre>";
