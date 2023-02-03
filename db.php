@@ -5,7 +5,7 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 
-//$link = mysqli_connect("localhost", "root", "root");
+//$link = mysqli_connect("localhost", "rinsert", "root");
 
 $link = mysqli_connect($servername, $username, $password);
 
