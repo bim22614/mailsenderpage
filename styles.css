@@ -16,7 +16,7 @@ body{
     flex-direction: column;
 }
 .submit{
-    background-color: orange;
+    background-color: green;
     font-size: 100px;
     transition: background-color 0.5s;
 }
